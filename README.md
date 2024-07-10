@@ -1,5 +1,2 @@
 hello
-triger
-tr
 
-d
