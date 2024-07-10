@@ -11,7 +11,7 @@ jobs:
       - name: Trigger HomeAssignment Workflow
         run: |
           curl -X POST -H "Accept: application/vnd.github.v3+json" \
-          -H "Authorization: token ${{ secrets.GH_PAT }}" \
+          -H "Authorization: token ${{ secrets.AFIMILK }}" \
           https://api.github.com/repos/alon3896/HomeAssignment/dispatches \
           -d '{"event_type":"triger_demo_push"}'
 
